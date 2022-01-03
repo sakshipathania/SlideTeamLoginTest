@@ -64,13 +64,21 @@ public class Facebook_Paid_Login extends BaseClass {
 
 	@Then("user clicks on Login button and verify the pageiv")
 	public void user_clicks_on_login_button_and_verify_the_pageiv() throws InterruptedException {
-		Thread.sleep(2000);
-		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
-		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
-		Thread.sleep(2000);
-		//js.executeScript("arguments[0].click();",fb_login_btn2);
-		fb_login_btn2.click();
-		Thread.sleep(4000);
+		try {
+			if (!driver.findElements(By.xpath("//input[@value='Log In']")).isEmpty()) {
+				driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			}
+				
+			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			
+			
+			fb_login.click();
+			Thread.sleep(3000);
+		
+		} catch (NoSuchElementException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		String subscriptionText = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']")))
 				.getText();
