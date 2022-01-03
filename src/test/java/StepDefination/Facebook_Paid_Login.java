@@ -64,7 +64,8 @@ public class Facebook_Paid_Login extends BaseClass {
 	@Then("user clicks on Login button and verify the pageiv")
 	public void user_clicks_on_login_button_and_verify_the_pageiv() throws InterruptedException {
 		Thread.sleep(2000);
-		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
 		fb_login_btn2.click();
 		Thread.sleep(4000);
 		
