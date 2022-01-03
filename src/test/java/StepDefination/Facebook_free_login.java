@@ -98,14 +98,19 @@ public class Facebook_free_login extends BaseClass {
 	@Then("user clicks on Login button_ii")
 	public void user_clicks_on_login_button_ii() throws Throwable {
 		try {
-			//WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
-			WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
-			Thread.sleep(2000);
-			fb_login_btn2.click();
-			//js.executeScript("arguments[0].click();",fb_login_btn2);
-
+			if (!driver.findElements(By.xpath("//input[@value='Log In']")).isEmpty()) {
+				driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			}
+				
+			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			
+			
+			fb_login.click();
+			Thread.sleep(3000);
+		
 		} catch (NoSuchElementException e) {
-
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 
 	}
