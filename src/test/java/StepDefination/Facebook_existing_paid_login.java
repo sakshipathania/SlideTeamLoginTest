@@ -89,12 +89,16 @@ public class Facebook_existing_paid_login extends BaseClass {
 	@Then("user clicks on Login buttoni$")
 	public void user_clicks_on_Login_buttoni() throws Throwable {
 
+		
 		try {
-			//WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
-			WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
-			Thread.sleep(2000);
-			js.executeScript("arguments[0].click();",fb_login_btn2);
-			//fb_login_btn2.click();
+			if (!driver.findElements(By.xpath("//input[@value='Log In']")).isEmpty()) {
+				driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			}
+				
+			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			
+			
+			fb_login.click();
 			Thread.sleep(3000);
 		
 		} catch (NoSuchElementException e) {
