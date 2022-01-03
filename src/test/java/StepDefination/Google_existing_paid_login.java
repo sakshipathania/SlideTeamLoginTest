@@ -78,7 +78,9 @@ public class Google_existing_paid_login extends BaseClass {
 			WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > div > button > span"));
 
 			next_1.click();
-
+                         Thread.sleep(9000);
+			Thread.sleep(9000);
+			Thread.sleep(9000);
 			WebElement gmail_pass = wait.until(ExpectedConditions
 					.elementToBeClickable(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")));
 
@@ -87,7 +89,7 @@ public class Google_existing_paid_login extends BaseClass {
 			WebElement next_2 = driver.findElement(By.cssSelector("#passwordNext > div > button > span"));
 
 			next_2.click();
-			Thread.sleep(6000);
+			Thread.sleep(3000);
 		} catch (NoSuchElementException e) {
 
 		}
