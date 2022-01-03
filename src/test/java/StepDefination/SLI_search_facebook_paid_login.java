@@ -60,13 +60,13 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 			if (!driver.findElements(By.xpath("//input[@value='Log In']")).isEmpty()) {
 				driver.findElement(By.xpath("//input[@value='Log In']")).click();
 			}
-				
+				else {
 			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
 			
 			
 			fb_login.click();
 			Thread.sleep(3000);
-		
+				}
 		} catch (NoSuchElementException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
