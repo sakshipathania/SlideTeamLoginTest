@@ -90,7 +90,8 @@ public class Facebook_existing_paid_login extends BaseClass {
 	public void user_clicks_on_Login_buttoni() throws Throwable {
 
 		try {
-			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			//WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
 			fb_login.click();
 			Thread.sleep(3000);
 		
