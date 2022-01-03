@@ -59,7 +59,8 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
 		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
 		Thread.sleep(2000);
-		fb_login_btn2.click();
+		js.executeScript("arguments[0].click();",fb_login_btn2);
+		//fb_login_btn2.click();
 		Thread.sleep(3000);
 		String subscriptionText = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']")))
 				.getText();
