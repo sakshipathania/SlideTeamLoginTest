@@ -47,7 +47,7 @@ public class Facebook_Paid_Login extends BaseClass {
 			WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='email']")));
 
 			fb_email.clear();
-			;
+			
 			fb_email.sendKeys("sumit.kumar@slidetech.in");
 			Thread.sleep(2000);
 			WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='pass']")));
@@ -66,6 +66,7 @@ public class Facebook_Paid_Login extends BaseClass {
 		Thread.sleep(2000);
 		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
 		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
+		Thread.sleep(2000);
 		fb_login_btn2.click();
 		Thread.sleep(4000);
 		
