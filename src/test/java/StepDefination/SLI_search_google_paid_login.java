@@ -110,11 +110,12 @@ public class SLI_search_google_paid_login extends BaseClass {
 		WebElement search_field = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='search']")));
 		search_field.sendKeys("Management");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 	}
 
 	@Then("user selects and download the PPT_viii$")
 	public void user_selects_and_download_the_ppt_viii() throws Throwable {
+		Thread.sleep(2000);
 		WebElement select_ppt = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//img[@title='Project Management Powerpoint Presentation Slides']")));
 		select_ppt.click();
