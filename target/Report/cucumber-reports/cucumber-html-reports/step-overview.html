@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Project Name</td>
+                          <td>1</td>
+                        <td>30 Dec 2021, 17:07</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_Enters_the_username_and_passwordi()</td>
+                <td>1</td>
+                <td class="duration" data-value="4314719000">4s 314ms</td>
+                <td class="duration" data-value="4314719000">4s 314ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_clicks_on_Login_buttoni()</td>
+                <td>1</td>
+                <td class="duration" data-value="3086411300">3s 086ms</td>
+                <td class="duration" data-value="3086411300">3s 086ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_clicks_on_the_logout_pagei()</td>
+                <td>1</td>
+                <td class="duration" data-value="4927402000">4s 927ms</td>
+                <td class="duration" data-value="4927402000">4s 927ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_clicks_on_the_popular_pp_tsi()</td>
+                <td>1</td>
+                <td class="duration" data-value="901452900">901ms</td>
+                <td class="duration" data-value="901452900">901ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_downloads_the_ppti()</td>
+                <td>1</td>
+                <td class="duration" data-value="13400892000">13s 400ms</td>
+                <td class="duration" data-value="13400892000">13s 400ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_is_home_pagei()</td>
+                <td>1</td>
+                <td class="duration" data-value="15007359500">15s 007ms</td>
+                <td class="duration" data-value="15007359500">15s 007ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_is_on_login_pagei()</td>
+                <td>1</td>
+                <td class="duration" data-value="165500">000ms</td>
+                <td class="duration" data-value="165500">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.user_try_to_Download_the_ppti()</td>
+                <td>1</td>
+                <td class="duration" data-value="9051218900">9s 051ms</td>
+                <td class="duration" data-value="9051218900">9s 051ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_existing_paid_login.verify_the_Signout_Messagei()</td>
+                <td>1</td>
+                <td class="duration" data-value="3065365900">3s 065ms</td>
+                <td class="duration" data-value="3065365900">3s 065ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_click_on_the_free_ppts_under_free_stuff_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="983225400">983ms</td>
+                <td class="duration" data-value="983225400">983ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_clicks_on_login_button_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="98504300">098ms</td>
+                <td class="duration" data-value="98504300">098ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_clicks_on_the_logout_page_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4107550000">4s 107ms</td>
+                <td class="duration" data-value="4107550000">4s 107ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_downloads_the_free_ppt_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="14131947800">14s 131ms</td>
+                <td class="duration" data-value="14131947800">14s 131ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_enters_the_free_username_and_password_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="1275953400">1s 275ms</td>
+                <td class="duration" data-value="1275953400">1s 275ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_is_home_page_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="15601589300">15s 601ms</td>
+                <td class="duration" data-value="15601589300">15s 601ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_is_on_home_page_page_and_click_on_facebbook_button_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3601219900">3s 601ms</td>
+                <td class="duration" data-value="3601219900">3s 601ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.user_try_to_download_the_free_ppts_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4723655300">4s 723ms</td>
+                <td class="duration" data-value="4723655300">4s 723ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Facebook_free_login.verify_The_Message_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="2065027200">2s 065ms</td>
+                <td class="duration" data-value="2065027200">2s 065ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_click_on_the_popular_PPsiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="883333500">883ms</td>
+                <td class="duration" data-value="883333500">883ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_clicks_on_the_logout_pageiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4954190300">4s 954ms</td>
+                <td class="duration" data-value="4954190300">4s 954ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_downloads_the_pptiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5978812200">5s 978ms</td>
+                <td class="duration" data-value="5978812200">5s 978ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_enters_the_username_and_passwordiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="11895437400">11s 895ms</td>
+                <td class="duration" data-value="11895437400">11s 895ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_is_home_pageiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="16710844500">16s 710ms</td>
+                <td class="duration" data-value="16710844500">16s 710ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_is_on_login_page_and_click_on_sigin_with_google_buttoniii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3220583000">3s 220ms</td>
+                <td class="duration" data-value="3220583000">3s 220ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.user_try_to_download_the_pptiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3925171200">3s 925ms</td>
+                <td class="duration" data-value="3925171200">3s 925ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_existing_paid_login.verify_the_messageiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="63283100">063ms</td>
+                <td class="duration" data-value="63283100">063ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_Enters_the_free_username_and_passwordiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="34434456700">34s 434ms</td>
+                <td class="duration" data-value="34434456700">34s 434ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_click_on_the_free_p_pts_under_free_stuffiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="981570100">981ms</td>
+                <td class="duration" data-value="981570100">981ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_clicks_on_the_logout_pageiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_downloads_the_free_pptiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_is_home_pageiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="33299149000">33s 299ms</td>
+                <td class="duration" data-value="33299149000">33s 299ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_is_on_home_page_page_and_click_on_google_buttoniiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="4155527500">4s 155ms</td>
+                <td class="duration" data-value="4155527500">4s 155ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.user_try_to_download_the_free_pptsiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="8713176400">8s 713ms</td>
+                <td class="duration" data-value="8713176400">8s 713ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Google_free_login.verify_the_messageiiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_click_on_the_popular_PPts_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="738216600">738ms</td>
+                <td class="duration" data-value="738216600">738ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_clicks_on_login_button_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="7115291000">7s 115ms</td>
+                <td class="duration" data-value="7115291000">7s 115ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_clicks_on_the_logout_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="7061179200">7s 061ms</td>
+                <td class="duration" data-value="7061179200">7s 061ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_downloads_the_ppt_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="5165759600">5s 165ms</td>
+                <td class="duration" data-value="5165759600">5s 165ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_enters_the_username_and_password_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="2236264800">2s 236ms</td>
+                <td class="duration" data-value="2236264800">2s 236ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_is_home_page_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="9403864900">9s 403ms</td>
+                <td class="duration" data-value="9403864900">9s 403ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_is_on_login_page_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="55800">000ms</td>
+                <td class="duration" data-value="55800">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.user_try_to_download_the_ppt_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="4800086100">4s 800ms</td>
+                <td class="duration" data-value="4800086100">4s 800ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">Normal_paid_login.verify_the_message_vi()</td>
+                <td>1</td>
+                <td class="duration" data-value="72726700">072ms</td>
+                <td class="duration" data-value="72726700">072ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.Now_user_is_on_home_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="7214444700">7s 214ms</td>
+                <td class="duration" data-value="7214444700">7s 214ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.click_on_sign_in_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="4083774600">4s 083ms</td>
+                <td class="duration" data-value="4083774600">4s 083ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.enter_data_in_search_field()</td>
+                <td>1</td>
+                <td class="duration" data-value="3143551900">3s 143ms</td>
+                <td class="duration" data-value="3143551900">3s 143ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.enter_free_valid_username_and_password()</td>
+                <td>1</td>
+                <td class="duration" data-value="3477500700">3s 477ms</td>
+                <td class="duration" data-value="3477500700">3s 477ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.press_Escape_key()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.press_escape_key()</td>
+                <td>1</td>
+                <td class="duration" data-value="2052114000">2s 052ms</td>
+                <td class="duration" data-value="2052114000">2s 052ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.verify_the_Pop_up()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_popup_check_with_escapeKey.verify_the_pop_up()</td>
+                <td>1</td>
+                <td class="duration" data-value="4111857500">4s 111ms</td>
+                <td class="duration" data-value="4111857500">4s 111ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.enter_keyword_in_search_field_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3114839100">3s 114ms</td>
+                <td class="duration" data-value="3114839100">3s 114ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_clicks_on_the_logout_page_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4817138300">4s 817ms</td>
+                <td class="duration" data-value="4817138300">4s 817ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_enters_the_username_and_password_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="233431500">233ms</td>
+                <td class="duration" data-value="233431500">233ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_is_home_page_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="21718935300">21s 718ms</td>
+                <td class="duration" data-value="21718935300">21s 718ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_selects_and_download_the_ppt()</td>
+                <td>1</td>
+                <td class="duration" data-value="6091781700">6s 091ms</td>
+                <td class="duration" data-value="6091781700">6s 091ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_verify_the_page_after_login_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="8361888500">8s 361ms</td>
+                <td class="duration" data-value="8361888500">8s 361ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.user_will_clicks_on_the_sign_in_with_facebook_button_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="6400306700">6s 400ms</td>
+                <td class="duration" data-value="6400306700">6s 400ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_facebook_paid_login.verify_the_message_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="70228500">070ms</td>
+                <td class="duration" data-value="70228500">070ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.enter_Keyword_in_search_field_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="7125698900">7s 125ms</td>
+                <td class="duration" data-value="7125698900">7s 125ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.enter_keyword_in_search_field_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="7206945200">7s 206ms</td>
+                <td class="duration" data-value="7206945200">7s 206ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_clicks_on_the_logout_page_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="6968063800">6s 968ms</td>
+                <td class="duration" data-value="6968063800">6s 968ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_enters_the_username_and_password_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="8398716600">8s 398ms</td>
+                <td class="duration" data-value="8398716600">8s 398ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_is_home_page_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="15846715900">15s 846ms</td>
+                <td class="duration" data-value="15846715900">15s 846ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_selects_and_download_the_ppt_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="2633543800">2s 633ms</td>
+                <td class="duration" data-value="2633543800">2s 633ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_verify_the_page_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="2677588100">2s 677ms</td>
+                <td class="duration" data-value="2677588100">2s 677ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.user_will_clicks_on_the_sign_in_with_google_button_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3266618000">3s 266ms</td>
+                <td class="duration" data-value="3266618000">3s 266ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SLI_search_google_paid_login.verify_the_message_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="3080601000">3s 080ms</td>
+                <td class="duration" data-value="3080601000">3s 080ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">TakeImageStep.tearDown(Scenario)</td>
+                <td>8</td>
+                <td class="duration" data-value="120999000">120ms</td>
+                <td class="duration" data-value="15124875">015ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>69</td>
+              <td>76</td>
+              <td class="duration">6m 38s 369ms</td>
+              <td class="duration">5s 241ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

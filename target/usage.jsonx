@@ -1,0 +1,1118 @@
+[
+  {
+    "source": "verify the Signout Messagei$",
+    "steps": [
+      {
+        "name": "verify the Signout Messagei",
+        "aggregatedDurations": {
+          "average": 3.0653659,
+          "median": 3.0653659
+        },
+        "durations": [
+          {
+            "duration": 3.0653659,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User try to download the pptiii$",
+    "steps": [
+      {
+        "name": "User try to download the pptiii",
+        "aggregatedDurations": {
+          "average": 3.9251712,
+          "median": 3.9251712
+        },
+        "durations": [
+          {
+            "duration": 3.9251712,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Enter free valid username and password",
+    "steps": [
+      {
+        "name": "Enter free valid username and password",
+        "aggregatedDurations": {
+          "average": 3.4775007,
+          "median": 3.4775007
+        },
+        "durations": [
+          {
+            "duration": 3.4775007,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home page_vi$",
+    "steps": [
+      {
+        "name": "User is home page_vi",
+        "aggregatedDurations": {
+          "average": 9.4038649,
+          "median": 9.4038649
+        },
+        "durations": [
+          {
+            "duration": 9.4038649,
+            "location": "src/test/java/Features/Normal_paid_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on Login page_vi$",
+    "steps": [
+      {
+        "name": "user is on Login page_vi",
+        "aggregatedDurations": {
+          "average": 0.0000558,
+          "median": 0.0000558
+        },
+        "durations": [
+          {
+            "duration": 0.0000558,
+            "location": "src/test/java/Features/Normal_paid_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Popular PPTsi$",
+    "steps": [
+      {
+        "name": "user clicks on the Popular PPTsi",
+        "aggregatedDurations": {
+          "average": 0.9014529,
+          "median": 0.9014529
+        },
+        "durations": [
+          {
+            "duration": 0.9014529,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the username and password_vi$",
+    "steps": [
+      {
+        "name": "user enters the username and password_vi",
+        "aggregatedDurations": {
+          "average": 2.2362648,
+          "median": 2.2362648
+        },
+        "durations": [
+          {
+            "duration": 2.2362648,
+            "location": "src/test/java/Features/Normal_paid_login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "enter keyword in search field_vii$",
+    "steps": [
+      {
+        "name": "enter keyword in search field_vii",
+        "aggregatedDurations": {
+          "average": 3.1148391,
+          "median": 3.1148391
+        },
+        "durations": [
+          {
+            "duration": 3.1148391,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user selects and download the PPT_viii$",
+    "steps": [
+      {
+        "name": "user selects and download the PPT_viii",
+        "aggregatedDurations": {
+          "average": 2.6335438,
+          "median": 2.6335438
+        },
+        "durations": [
+          {
+            "duration": 2.6335438,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Login button_vi$",
+    "steps": [
+      {
+        "name": "user clicks on Login button_vi",
+        "aggregatedDurations": {
+          "average": 7.115291,
+          "median": 7.115291
+        },
+        "durations": [
+          {
+            "duration": 7.115291,
+            "location": "src/test/java/Features/Normal_paid_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on Login page and click on Signin with google buttoniii$",
+    "steps": [
+      {
+        "name": "user is on Login page and click on Signin with google buttoniii",
+        "aggregatedDurations": {
+          "average": 3.220583,
+          "median": 3.220583
+        },
+        "durations": [
+          {
+            "duration": 3.220583,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "enter Keyword in search field_viii$",
+    "steps": [
+      {
+        "name": "enter Keyword in search field_viii",
+        "aggregatedDurations": {
+          "average": 7.1256989,
+          "median": 7.1256989
+        },
+        "durations": [
+          {
+            "duration": 7.1256989,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home page_ii",
+    "steps": [
+      {
+        "name": "User is home page_ii",
+        "aggregatedDurations": {
+          "average": 15.6015893,
+          "median": 15.6015893
+        },
+        "durations": [
+          {
+            "duration": 15.6015893,
+            "location": "src/test/java/Features/Facebook_free_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Enter keyword in search field_viii$",
+    "steps": [
+      {
+        "name": "Enter keyword in search field_viii",
+        "aggregatedDurations": {
+          "average": 7.2069452,
+          "median": 7.2069452
+        },
+        "durations": [
+          {
+            "duration": 7.2069452,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user will clicks on the sign in with Google button_viii$",
+    "steps": [
+      {
+        "name": "user will clicks on the sign in with Google button_viii",
+        "aggregatedDurations": {
+          "average": 3.266618,
+          "median": 3.266618
+        },
+        "durations": [
+          {
+            "duration": 3.266618,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the username and password_viii$",
+    "steps": [
+      {
+        "name": "user enters the username and password_viii",
+        "aggregatedDurations": {
+          "average": 8.3987166,
+          "median": 8.3987166
+        },
+        "durations": [
+          {
+            "duration": 8.3987166,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User try to download the ppt_vi$",
+    "steps": [
+      {
+        "name": "User try to download the ppt_vi",
+        "aggregatedDurations": {
+          "average": 4.8000861,
+          "median": 4.8000861
+        },
+        "durations": [
+          {
+            "duration": 4.8000861,
+            "location": "src/test/java/Features/Normal_paid_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on home page page and click on facebbook button_ii",
+    "steps": [
+      {
+        "name": "user is on home page page and click on facebbook button_ii",
+        "aggregatedDurations": {
+          "average": 3.6012199,
+          "median": 3.6012199
+        },
+        "durations": [
+          {
+            "duration": 3.6012199,
+            "location": "src/test/java/Features/Facebook_free_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on home page page and click on google buttoniiv$",
+    "steps": [
+      {
+        "name": "user is on home page page and click on google buttoniiv",
+        "aggregatedDurations": {
+          "average": 4.1555275,
+          "median": 4.1555275
+        },
+        "durations": [
+          {
+            "duration": 4.1555275,
+            "location": "src/test/java/Features/Google_free_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the messageiii$",
+    "steps": [
+      {
+        "name": "verify the messageiii",
+        "aggregatedDurations": {
+          "average": 0.0632831,
+          "median": 0.0632831
+        },
+        "durations": [
+          {
+            "duration": 0.0632831,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home page_viii$",
+    "steps": [
+      {
+        "name": "User is home page_viii",
+        "aggregatedDurations": {
+          "average": 15.8467159,
+          "median": 15.8467159
+        },
+        "durations": [
+          {
+            "duration": 15.8467159,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home pageiiv$",
+    "steps": [
+      {
+        "name": "User is home pageiiv",
+        "aggregatedDurations": {
+          "average": 33.299149,
+          "median": 33.299149
+        },
+        "durations": [
+          {
+            "duration": 33.299149,
+            "location": "src/test/java/Features/Google_free_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user downloads the PPT_vi$",
+    "steps": [
+      {
+        "name": "user downloads the PPT_vi",
+        "aggregatedDurations": {
+          "average": 5.1657596,
+          "median": 5.1657596
+        },
+        "durations": [
+          {
+            "duration": 5.1657596,
+            "location": "src/test/java/Features/Normal_paid_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "press escape key",
+    "steps": [
+      {
+        "name": "press escape key",
+        "aggregatedDurations": {
+          "average": 2.052114,
+          "median": 2.052114
+        },
+        "durations": [
+          {
+            "duration": 2.052114,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user downloads the PPTiii$",
+    "steps": [
+      {
+        "name": "user downloads the PPTiii",
+        "aggregatedDurations": {
+          "average": 5.9788122,
+          "median": 5.9788122
+        },
+        "durations": [
+          {
+            "duration": 5.9788122,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User try to download the free ppts_ii",
+    "steps": [
+      {
+        "name": "User try to download the free ppts_ii",
+        "aggregatedDurations": {
+          "average": 4.7236553,
+          "median": 4.7236553
+        },
+        "durations": [
+          {
+            "duration": 4.7236553,
+            "location": "src/test/java/Features/Facebook_free_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home pageiii$",
+    "steps": [
+      {
+        "name": "User is home pageiii",
+        "aggregatedDurations": {
+          "average": 16.7108445,
+          "median": 16.7108445
+        },
+        "durations": [
+          {
+            "duration": 16.7108445,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user selects and download the PPT_vii$",
+    "steps": [
+      {
+        "name": "user selects and download the PPT_vii",
+        "aggregatedDurations": {
+          "average": 6.0917817,
+          "median": 6.0917817
+        },
+        "durations": [
+          {
+            "duration": 6.0917817,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the message_vii$",
+    "steps": [
+      {
+        "name": "verify the message_vii",
+        "aggregatedDurations": {
+          "average": 0.0702285,
+          "median": 0.0702285
+        },
+        "durations": [
+          {
+            "duration": 0.0702285,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the username and passwordiii$",
+    "steps": [
+      {
+        "name": "user enters the username and passwordiii",
+        "aggregatedDurations": {
+          "average": 11.8954374,
+          "median": 11.8954374
+        },
+        "durations": [
+          {
+            "duration": 11.8954374,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the message_vi$",
+    "steps": [
+      {
+        "name": "verify the message_vi",
+        "aggregatedDurations": {
+          "average": 0.0727267,
+          "median": 0.0727267
+        },
+        "durations": [
+          {
+            "duration": 0.0727267,
+            "location": "src/test/java/Features/Normal_paid_login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on the Free PPts under free stuffiiv$",
+    "steps": [
+      {
+        "name": "user click on the Free PPts under free stuffiiv",
+        "aggregatedDurations": {
+          "average": 0.9815701,
+          "median": 0.9815701
+        },
+        "durations": [
+          {
+            "duration": 0.9815701,
+            "location": "src/test/java/Features/Google_free_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user downloads the PPTi$",
+    "steps": [
+      {
+        "name": "user downloads the PPTi",
+        "aggregatedDurations": {
+          "average": 13.400892,
+          "median": 13.400892
+        },
+        "durations": [
+          {
+            "duration": 13.400892,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the pop-up",
+    "steps": [
+      {
+        "name": "verify the pop-up",
+        "aggregatedDurations": {
+          "average": 4.1118575,
+          "median": 4.1118575
+        },
+        "durations": [
+          {
+            "duration": 4.1118575,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Logout page_viii$",
+    "steps": [
+      {
+        "name": "user clicks on the Logout page_viii",
+        "aggregatedDurations": {
+          "average": 6.9680638,
+          "median": 6.9680638
+        },
+        "durations": [
+          {
+            "duration": 6.9680638,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Enter data in search field",
+    "steps": [
+      {
+        "name": "Enter data in search field",
+        "aggregatedDurations": {
+          "average": 3.1435519,
+          "median": 3.1435519
+        },
+        "durations": [
+          {
+            "duration": 3.1435519,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Logout pagei$",
+    "steps": [
+      {
+        "name": "user clicks on the Logout pagei",
+        "aggregatedDurations": {
+          "average": 4.927402,
+          "median": 4.927402
+        },
+        "durations": [
+          {
+            "duration": 4.927402,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the username and password_vii$",
+    "steps": [
+      {
+        "name": "user enters the username and password_vii",
+        "aggregatedDurations": {
+          "average": 0.2334315,
+          "median": 0.2334315
+        },
+        "durations": [
+          {
+            "duration": 0.2334315,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Login buttoni$",
+    "steps": [
+      {
+        "name": "user clicks on Login buttoni",
+        "aggregatedDurations": {
+          "average": 3.0864113,
+          "median": 3.0864113
+        },
+        "durations": [
+          {
+            "duration": 3.0864113,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click on Sign in button",
+    "steps": [
+      {
+        "name": "Click on Sign in button",
+        "aggregatedDurations": {
+          "average": 4.0837746,
+          "median": 4.0837746
+        },
+        "durations": [
+          {
+            "duration": 4.0837746,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Logout page_vii$",
+    "steps": [
+      {
+        "name": "user clicks on the Logout page_vii",
+        "aggregatedDurations": {
+          "average": 4.8171383,
+          "median": 4.8171383
+        },
+        "durations": [
+          {
+            "duration": 4.8171383,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home pagei$",
+    "steps": [
+      {
+        "name": "User is home pagei",
+        "aggregatedDurations": {
+          "average": 15.0073595,
+          "median": 15.0073595
+        },
+        "durations": [
+          {
+            "duration": 15.0073595,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user is on Login pagei$",
+    "steps": [
+      {
+        "name": "user is on Login pagei",
+        "aggregatedDurations": {
+          "average": 0.0001655,
+          "median": 0.0001655
+        },
+        "durations": [
+          {
+            "duration": 0.0001655,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enters the free username and password_ii",
+    "steps": [
+      {
+        "name": "user enters the free username and password_ii",
+        "aggregatedDurations": {
+          "average": 1.2759534,
+          "median": 1.2759534
+        },
+        "durations": [
+          {
+            "duration": 1.2759534,
+            "location": "src/test/java/Features/Facebook_free_login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Logout page_vi$",
+    "steps": [
+      {
+        "name": "user clicks on the Logout page_vi",
+        "aggregatedDurations": {
+          "average": 7.0611792,
+          "median": 7.0611792
+        },
+        "durations": [
+          {
+            "duration": 7.0611792,
+            "location": "src/test/java/Features/Normal_paid_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user will clicks on the sign in with Facebook button_vii$",
+    "steps": [
+      {
+        "name": "user will clicks on the sign in with Facebook button_vii",
+        "aggregatedDurations": {
+          "average": 6.4003067,
+          "median": 6.4003067
+        },
+        "durations": [
+          {
+            "duration": 6.4003067,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Now user is on Home Page",
+    "steps": [
+      {
+        "name": "Now user is on Home Page",
+        "aggregatedDurations": {
+          "average": 7.2144447,
+          "median": 7.2144447
+        },
+        "durations": [
+          {
+            "duration": 7.2144447,
+            "location": "src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User try to Download the ppti$",
+    "steps": [
+      {
+        "name": "User try to Download the ppti",
+        "aggregatedDurations": {
+          "average": 9.0512189,
+          "median": 9.0512189
+        },
+        "durations": [
+          {
+            "duration": 9.0512189,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User is home page_vii$",
+    "steps": [
+      {
+        "name": "User is home page_vii",
+        "aggregatedDurations": {
+          "average": 21.7189353,
+          "median": 21.7189353
+        },
+        "durations": [
+          {
+            "duration": 21.7189353,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on the Free PPts under free stuff_ii",
+    "steps": [
+      {
+        "name": "user click on the Free PPts under free stuff_ii",
+        "aggregatedDurations": {
+          "average": 0.9832254,
+          "median": 0.9832254
+        },
+        "durations": [
+          {
+            "duration": 0.9832254,
+            "location": "src/test/java/Features/Facebook_free_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on Login button_ii",
+    "steps": [
+      {
+        "name": "user clicks on Login button_ii",
+        "aggregatedDurations": {
+          "average": 0.0985043,
+          "median": 0.0985043
+        },
+        "durations": [
+          {
+            "duration": 0.0985043,
+            "location": "src/test/java/Features/Facebook_free_login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the Logout pageiii$",
+    "steps": [
+      {
+        "name": "user clicks on the Logout pageiii",
+        "aggregatedDurations": {
+          "average": 4.9541903,
+          "median": 4.9541903
+        },
+        "durations": [
+          {
+            "duration": 4.9541903,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user verify the page after login_vii$",
+    "steps": [
+      {
+        "name": "user verify the page after login_vii",
+        "aggregatedDurations": {
+          "average": 8.3618885,
+          "median": 8.3618885
+        },
+        "durations": [
+          {
+            "duration": 8.3618885,
+            "location": "src/test/java/Features/SLI_search_facebook_paid_login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on the Popular PPTsiii$",
+    "steps": [
+      {
+        "name": "user click on the Popular PPTsiii",
+        "aggregatedDurations": {
+          "average": 0.8833335,
+          "median": 0.8833335
+        },
+        "durations": [
+          {
+            "duration": 0.8833335,
+            "location": "src/test/java/Features/Google_existing_paid_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user downloads the free PPT_ii",
+    "steps": [
+      {
+        "name": "user downloads the free PPT_ii",
+        "aggregatedDurations": {
+          "average": 14.1319478,
+          "median": 14.1319478
+        },
+        "durations": [
+          {
+            "duration": 14.1319478,
+            "location": "src/test/java/Features/Facebook_free_login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click on the Popular PPTs_vi$",
+    "steps": [
+      {
+        "name": "user click on the Popular PPTs_vi",
+        "aggregatedDurations": {
+          "average": 0.7382166,
+          "median": 0.7382166
+        },
+        "durations": [
+          {
+            "duration": 0.7382166,
+            "location": "src/test/java/Features/Normal_paid_login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify The Message_ii",
+    "steps": [
+      {
+        "name": "verify The Message_ii",
+        "aggregatedDurations": {
+          "average": 2.0650272,
+          "median": 2.0650272
+        },
+        "durations": [
+          {
+            "duration": 2.0650272,
+            "location": "src/test/java/Features/Facebook_free_login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify the message_viii$",
+    "steps": [
+      {
+        "name": "verify the message_viii",
+        "aggregatedDurations": {
+          "average": 3.080601,
+          "median": 3.080601
+        },
+        "durations": [
+          {
+            "duration": 3.080601,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user clicks on the logout page_ii",
+    "steps": [
+      {
+        "name": "user clicks on the logout page_ii",
+        "aggregatedDurations": {
+          "average": 4.10755,
+          "median": 4.10755
+        },
+        "durations": [
+          {
+            "duration": 4.10755,
+            "location": "src/test/java/Features/Facebook_free_login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user Enters the username and passwordi$",
+    "steps": [
+      {
+        "name": "user Enters the username and passwordi",
+        "aggregatedDurations": {
+          "average": 4.314719,
+          "median": 4.314719
+        },
+        "durations": [
+          {
+            "duration": 4.314719,
+            "location": "src/test/java/Features/Facebook_existing_paid_login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User try to download the free pptsiiv$",
+    "steps": [
+      {
+        "name": "User try to download the free pptsiiv",
+        "aggregatedDurations": {
+          "average": 8.7131764,
+          "median": 8.7131764
+        },
+        "durations": [
+          {
+            "duration": 8.7131764,
+            "location": "src/test/java/Features/Google_free_login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user verify the page_viii$",
+    "steps": [
+      {
+        "name": "user verify the page_viii",
+        "aggregatedDurations": {
+          "average": 2.6775881,
+          "median": 2.6775881
+        },
+        "durations": [
+          {
+            "duration": 2.6775881,
+            "location": "src/test/java/Features/SLI_search_google_paid_login.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

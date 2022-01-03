@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: Setupclass.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 78, Failures: 0, Errors: 2, Skipped: 7, Time elapsed: 416.772 s <<< FAILURE! - in Setupclass.TestRunner
+And user Enters the free username and passwordiiv(Scenario: Login with Google free account)  Time elapsed: 0.005 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SLIDEQA2', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+
+Scenario: Login with Google free account  Time elapsed: 0.005 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input (tried for 30 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SLIDEQA2', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+
