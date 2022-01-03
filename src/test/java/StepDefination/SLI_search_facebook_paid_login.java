@@ -56,8 +56,8 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 	@Then("user verify the page after login_vii$")
 	public void user_verify_the_page_after_login_vii() throws Throwable {
 
-		WebElement fb_login_btn2 = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
 		fb_login_btn2.click();
 		Thread.sleep(3000);
 		String subscriptionText = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']")))
