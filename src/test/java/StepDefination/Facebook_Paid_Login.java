@@ -51,8 +51,8 @@ public class Facebook_Paid_Login extends BaseClass {
 			fb_email.sendKeys("sumit.kumar@slidetech.in");
 			Thread.sleep(2000);
 			WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='pass']")));
-			
-		    fb_pass.sendKeys("redhat2090");
+			Thread.sleep(2000);
+		        fb_pass.sendKeys("redhat2090");
 
 			
 		} catch (NoSuchElementException e) {
@@ -67,8 +67,8 @@ public class Facebook_Paid_Login extends BaseClass {
 		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
 		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
 		Thread.sleep(2000);
-		js.executeScript("arguments[0].click();",fb_login_btn2);
-		//fb_login_btn2.click();
+		//js.executeScript("arguments[0].click();",fb_login_btn2);
+		fb_login_btn2.click();
 		Thread.sleep(4000);
 		
 		String subscriptionText = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']")))
