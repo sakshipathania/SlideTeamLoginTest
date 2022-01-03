@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 
 //@RunWith(Cucumber.class)
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"."}, glue = {"StepDefination"},//tags= {"@paid_user_sign_in_via_gmail"},
+@CucumberOptions(features = {"."}, glue = {"StepDefination"},tags= {"@Google_existing_paid_login"},
 plugin= {"pretty", "html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json","usage:target/usage.jsonx","junit:target/cucumber.xml"})
 
 public class TestRunner {
