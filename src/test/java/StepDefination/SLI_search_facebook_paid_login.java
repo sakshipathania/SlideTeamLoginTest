@@ -55,17 +55,25 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 
 	@Then("user verify the page after login_vii$")
 	public void user_verify_the_page_after_login_vii() throws Throwable {
-
-		//WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
-		WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
-		Thread.sleep(2000);
-		js.executeScript("arguments[0].click();",fb_login_btn2);
-		//fb_login_btn2.click();
-		Thread.sleep(3000);
+		
+		try {
+			if (!driver.findElements(By.xpath("//input[@value='Log In']")).isEmpty()) {
+				driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			}
+				
+			WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
+			
+			
+			fb_login.click();
+			Thread.sleep(3000);
+		
+		} catch (NoSuchElementException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		String subscriptionText = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']")))
 				.getText();
 		System.out.println("subscriptionText = " + subscriptionText);
-
 		//Assert.assertTrue("user is not on the subscription page after login with facebook paid credentials",subscriptionText.contains(TextMessage));
 	}
 
