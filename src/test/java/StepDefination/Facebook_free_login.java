@@ -142,8 +142,7 @@ public class Facebook_free_login extends BaseClass {
 	@Then("verify The Message_ii")
 	public void verify_The_Message_ii() throws InterruptedException {
 		Thread.sleep(3000);
-		String verifySignOutMessage = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
+		String verifySignOutMessage = BaseClass.elementToBeClickable(By.xpath("//h3[@class='base']")).getText();
 
 		System.out.print("logout= " + verifySignOutMessage);
 		

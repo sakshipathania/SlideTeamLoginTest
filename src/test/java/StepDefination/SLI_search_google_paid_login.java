@@ -67,13 +67,11 @@ public class SLI_search_google_paid_login extends BaseClass {
 			Thread.sleep(3000);
 
 			if (!driver.findElements(By.xpath("//div[@class='BHzsHc']")).isEmpty()) {
-				WebElement another_btn = wait
-						.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Use another account']")));
+				WebElement another_btn =BaseClass.elementToBeClickable(By.xpath("//div[text()='Use another account']"));
 				another_btn.click();
 			}
 			Thread.sleep(2000);
-			WebElement gmail_email = wait
-					.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='identifierId']")));
+			WebElement gmail_email = BaseClass.elementToBeClickable(By.xpath("//*[@id='identifierId']"));
 
 			gmail_email.sendKeys("nisha.dhiman@slidetech.in");
 

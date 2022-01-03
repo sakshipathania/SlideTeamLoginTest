@@ -98,10 +98,10 @@ public class Facebook_Paid_Login extends BaseClass {
 	public void user_clicks_on_the_logout_pageiv() throws InterruptedException {
 		Thread.sleep(3000);
 		WebElement sign_Out = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Sign Out")));
-		sign_Out.click();
+		js.executeScript("arguments[0].click();",sign_Out);
 		
 		Thread.sleep(3000);
-		String verifySignOutMessage = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
+		String verifySignOutMessage = BaseClass.elementToBeClickable(By.xpath("//h3[@class='base']")).getText();
 		
 		Assert.assertTrue("user is not logout from the application",verifySignOutMessage.contains("YOU ARE NOW LOGGED OUT"));
 		

@@ -81,13 +81,11 @@ public class Google_free_login extends BaseClass {
 		try {
 
 			if (!driver.findElements(By.xpath("//div[@class='BHzsHc']")).isEmpty()) {
-				WebElement another_btn = wait.until(
-						ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Use another account']")));
+				WebElement another_btn = BaseClass.elementToBeClickable(By.xpath("//div[text()='Use another account']"));
 				another_btn.click();
 			}
 
-			WebElement gmail_email = wait
-					.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='identifierId']")));
+			WebElement gmail_email = BaseClass.elementToBeClickable(By.xpath("//*[@id='identifierId']"));
 			gmail_email.sendKeys("nishadhiman0027@gmail.com");
 			WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > div > button > span"));
 			next_1.click();

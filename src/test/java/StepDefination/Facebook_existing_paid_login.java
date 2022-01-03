@@ -122,7 +122,7 @@ public class Facebook_existing_paid_login extends BaseClass {
 		try {
 			Thread.sleep(3000);
 			WebElement sign_Out = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Sign Out")));
-			sign_Out.click();
+			js.executeScript("arguments[0].click();", sign_Out);
 		} catch (NoSuchElementException e) {
 
 		}
@@ -133,8 +133,7 @@ public class Facebook_existing_paid_login extends BaseClass {
 	public void verify_the_Signout_Messagei() throws Throwable {
 
 		Thread.sleep(3000);
-		String verifySignOutMessage = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
+		String verifySignOutMessage = BaseClass.elementToBeClickable(By.xpath("//h3[@class='base']")).getText();
 
 		System.out.print("logout= " + verifySignOutMessage);
 		

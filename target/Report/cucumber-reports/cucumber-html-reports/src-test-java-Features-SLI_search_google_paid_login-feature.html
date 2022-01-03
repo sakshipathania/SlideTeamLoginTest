@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>03 Jan 2022, 11:23</td>
+                        <td>03 Jan 2022, 11:38</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">SLI search Google login</td>
-                    <td >0</td>
-          <td  class="failed"    >1</td>
+                    <td  class="passed"    >1</td>
+          <td >0</td>
           <td class="total">1</td>
-          <td      class="passed"    >3</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >5</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">9</td>
-          <td class="duration" data-value="58314592500">58s 314ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="81709965800">1m 21s 709ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -154,7 +154,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">SLI search Google login</span>
   
@@ -172,9 +172,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">SLI search Google login test</span>
   
@@ -185,15 +185,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -203,14 +203,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">User is home page_viii</span>
   
-  <span class="lead-duration duration">15s 780ms</span>
+  <span class="lead-duration duration">15s 212ms</span>
 
   </div>
 
@@ -231,7 +231,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">Enter keyword in search field_viii</span>
   
-  <span class="lead-duration duration">7s 215ms</span>
+  <span class="lead-duration duration">7s 244ms</span>
 
   </div>
 
@@ -252,7 +252,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">user will clicks on the sign in with Google button_viii</span>
   
-  <span class="lead-duration duration">1s 695ms</span>
+  <span class="lead-duration duration">1s 834ms</span>
 
   </div>
 
@@ -269,36 +269,15 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">user enters the username and password_viii</span>
   
-  <span class="lead-duration duration">33s 623ms</span>
+  <span class="lead-duration duration">9s 910ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
-          <a>Error message</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='identifierId'] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDEQA2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 170be4c2b0ce86ffb621817eda649eb6
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-	at StepDefination.SLI_search_google_paid_login.user_enters_the_username_and_password_viii(SLI_search_google_paid_login.java:76)
-	at ✽.And user enters the username and password_viii(src/test/java/Features/SLI_search_google_paid_login.feature:8)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -311,11 +290,11 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">user verify the page_viii</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">3s 294ms</span>
 
   </div>
 
@@ -332,11 +311,11 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">enter Keyword in search field_viii</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">7s 146ms</span>
 
   </div>
 
@@ -353,11 +332,11 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">user selects and download the PPT_viii</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">25s 078ms</span>
 
   </div>
 
@@ -374,11 +353,11 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">user clicks on the Logout page_viii</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">8s 915ms</span>
 
   </div>
 
@@ -395,11 +374,11 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">verify the message_viii</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">3s 074ms</span>
 
   </div>
 
@@ -412,17 +391,6 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
         
 
         
-  <div class="embeddings inner-level">
-                <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding_embedding_736067111" class="collapsable-control">
-      <a>Attachment 1 (png)</a>
-      <a href="embeddings/embedding_736067111.png" target="_blank"><span class="download-button glyphicon glyphicon-download-alt"></span></a>
-    </div>
-    <div id="embedding_embedding_736067111" class="collapse collapsable-detail">
-      <span class="embedding-content"><img src="embeddings/embedding_736067111.png"></span>
-    </div>
-  </div>
-        </div>
 
       </div>
       </div>
@@ -431,7 +399,7 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -443,13 +411,13 @@ Session ID: 170be4c2b0ce86ffb621817eda649eb6
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-3" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">TakeImageStep.tearDown(Scenario)</span>
                         
-  <span class="lead-duration duration">164ms</span>
+  <span class="lead-duration duration">000ms</span>
 
           </div>
 
