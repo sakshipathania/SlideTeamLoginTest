@@ -106,7 +106,7 @@ public class Facebook_existing_paid_login extends BaseClass {
 	@Then("user downloads the PPTi$")
 	public void user_downloads_the_ppti() throws Throwable {
 	
-		driver.get("https://www.slideteam.net/business-process-evaluation-powerpoint-show.html");
+		//driver.get("https://www.slideteam.net/business-process-evaluation-powerpoint-show.html");
 		WebElement download_Ppt = BaseClass.elementToBeClickable(By.xpath("//button[@id='clicking']"));
 		js.executeScript("arguments[0].scrollIntoView();", download_Ppt);
 		download_Ppt.click();
