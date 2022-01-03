@@ -86,7 +86,7 @@ public class Google_free_login extends BaseClass {
 			}
 
 			WebElement gmail_email = BaseClass.elementToBeClickable(By.xpath("//*[@id='identifierId']"));
-			gmail_email.sendKeys("nishadhiman0027@gmail.com");
+			gmail_email.sendKeys("parul.pahwa@slidetech.in");
 			WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > div > button > span"));
 			next_1.click();
 			
@@ -94,7 +94,7 @@ public class Google_free_login extends BaseClass {
 			Thread.sleep(2000);
 			WebElement gmail_pass = wait.until(ExpectedConditions
 					.elementToBeClickable(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")));
-			gmail_pass.sendKeys("Qwerty@1");
+			gmail_pass.sendKeys("parulpahwa@11");
 
 			WebElement next_2 = driver.findElement(By.cssSelector("#passwordNext > div > button > span"));
 			next_2.click();
