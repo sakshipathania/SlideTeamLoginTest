@@ -36,7 +36,7 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 	}
 
 	@Then("user enters the username and password_vii$")
-	public void user_enters_the_username_and_password_vii() {
+	public void user_enters_the_username_and_password_vii() throws Throwable {
 		try {
 			WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='email']")));
 
