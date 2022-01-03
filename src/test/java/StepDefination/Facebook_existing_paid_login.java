@@ -92,7 +92,7 @@ public class Facebook_existing_paid_login extends BaseClass {
 		try {
 			//WebElement fb_login = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='loginbutton']")));
 			WebElement fb_login_btn2 = wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Log In")));
-			fb_login.click();
+			fb_login_btn2.click();
 			Thread.sleep(3000);
 		
 		} catch (NoSuchElementException e) {
