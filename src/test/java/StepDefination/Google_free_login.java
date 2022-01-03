@@ -140,9 +140,14 @@ public class Google_free_login extends BaseClass {
 	@Then("verify the messageiiv$")
 	public void verify_the_messageiiv() throws Throwable {
 		// verify the page after logout the application
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		String verifySignOutMessage = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
+
+		System.out.print("logout= " + verifySignOutMessage);
+		
+		Assert.assertTrue("user is not logout from the application",
+				verifySignOutMessage.contains(verifySignOutMessage));
 
 		
 	

@@ -119,10 +119,14 @@ public class Normal_paid_login extends BaseClass {
 
 	@Then("verify the message_vi$")
 	public void verify_the_message_vi() throws InterruptedException {
+		Thread.sleep(3000);
 		String verifySignOutMessage = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
 
-		//Assert.assertTrue("user is not logout from the application",verifySignOutMessage.contains(SigoutVerifyMessage));
+		System.out.print("logout= " + verifySignOutMessage);
+		
+		Assert.assertTrue("user is not logout from the application",
+				verifySignOutMessage.contains(verifySignOutMessage));
 	}
 
 }

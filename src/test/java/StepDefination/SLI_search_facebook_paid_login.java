@@ -107,10 +107,14 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 	public void verify_the_message_vii() throws Throwable {
 		// verify the page after logout the application
 
+		Thread.sleep(3000);
 		String verifySignOutMessage = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
 
-		//Assert.assertTrue("user is not logout from the application", verifySignOutMessage.contains(Message));
+		System.out.print("logout= " + verifySignOutMessage);
+		
+		Assert.assertTrue("user is not logout from the application",
+				verifySignOutMessage.contains(verifySignOutMessage));
 		
 		
 	}

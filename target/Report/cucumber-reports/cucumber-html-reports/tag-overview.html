@@ -49,32 +49,32 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels: ["@Google_Free_login","@Google_existing_paid_login","@Normal_paid_Login","@SLI_Search_with_Google_Paid","@SLI_Search_with_facebook_Paid","@Sli_test","@facebook_Free_login","@facebook_existing_paid_login"],
+        labels: ["@Google_Free_login","@Google_existing_paid_login","@Normal_paid_Login","@SLI_Search_with_Google_Paid","@SLI_Search_with_facebook_Paid","@facebook_Free_login","@facebook_existing_paid_login"],
         datasets: [
             {
                 label: 'Passed',
                 backgroundColor: "#92DD96",
-                data: [50.00, 100.00, 100.00, 100.00, 100.00, 66.67, 100.00, 100.00]
+                data: [50.00, 100.00, 100.00, 33.33, 100.00, 100.00, 100.00]
             },
             {
                 label: 'Failed',
                 backgroundColor: "#F2928C",
-                data: [12.50, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [12.50, 0.00, 0.00, 11.11, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Skipped',
                 backgroundColor: "#8AF",
-                data: [37.50, 0.00, 0.00, 0.00, 0.00, 22.22, 0.00, 0.00]
+                data: [37.50, 0.00, 0.00, 55.56, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Pending',
                 backgroundColor: "#F5F28F",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Undefined',
                 backgroundColor: "#F5B975",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 11.11, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>30 Dec 2021, 17:07</td>
+                        <td>03 Jan 2022, 11:23</td>
           </tr>
         </tbody>
       </table>
@@ -203,7 +203,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">8</td>
-        <td class="duration" data-value="81583879700">1m 21s 583ms</td>
+        <td class="duration" data-value="79165934900">1m 19s 165ms</td>
         <td class="failed">Failed</td>
       </tr>
           <tr>
@@ -218,7 +218,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">8</td>
-        <td class="duration" data-value="47631655200">47s 631ms</td>
+        <td class="duration" data-value="50552805000">50s 552ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -233,23 +233,23 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">9</td>
-        <td class="duration" data-value="36593444700">36s 593ms</td>
+        <td class="duration" data-value="38691472700">38s 691ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="SLI_Search_with_Google_Paid.html">@SLI_Search_with_Google_Paid</a></td>
         
-        <td  class="passed"    >1</td>
         <td >0</td>
+        <td  class="failed"    >1</td>
         <td class="total">1</td>
-        <td      class="passed"    >9</td>
-        <td >0</td>
-        <td >0</td>
+        <td      class="passed"    >3</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >5</td>
         <td >0</td>
         <td >0</td>
         <td class="total">9</td>
-        <td class="duration" data-value="57204491300">57s 204ms</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="58314592500">58s 314ms</td>
+        <td class="failed">Failed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="SLI_Search_with_facebook_Paid.html">@SLI_Search_with_facebook_Paid</a></td>
@@ -263,23 +263,8 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">8</td>
-        <td class="duration" data-value="50808549600">50s 808ms</td>
+        <td class="duration" data-value="49392893800">49s 392ms</td>
         <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="Sli_test.html">@Sli_test</a></td>
-        
-        <td >0</td>
-        <td  class="failed"    >1</td>
-        <td class="total">1</td>
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td     class="skipped"   >2</td>
-        <td >0</td>
-        <td   class="undefined" >1</td>
-        <td class="total">9</td>
-        <td class="duration" data-value="24083243400">24s 083ms</td>
-        <td class="failed">Failed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="facebook_Free_login.html">@facebook_Free_login</a></td>
@@ -293,7 +278,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">9</td>
-        <td class="duration" data-value="46588672600">46s 588ms</td>
+        <td class="duration" data-value="47950547500">47s 950ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -308,39 +293,39 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">9</td>
-        <td class="duration" data-value="53754987000">53s 754ms</td>
+        <td class="duration" data-value="53249970500">53s 249ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>8</td>
-            <td>6</td>
+      <td>7</td>
+            <td>5</td>
+      <td>2</td>
+      <td>7</td>
+      <td>50</td>
       <td>2</td>
       <td>8</td>
-      <td>62</td>
-      <td>1</td>
-      <td>5</td>
       <td>0</td>
-      <td>1</td>
-      <td>69</td>
-      <td class="duration">6m 38s 248ms</td>
+      <td>0</td>
+      <td>60</td>
+      <td class="duration">6m 17s 318ms</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-            <td>75.00%</td>
-      <td>25.00%</td>
+            <td>71.43%</td>
+      <td>28.57%</td>
       <td></td>
-      <td>89.86%</td>
-      <td>1.45%</td>
-      <td>7.25%</td>
+      <td>83.33%</td>
+      <td>3.33%</td>
+      <td>13.33%</td>
       <td>0.00%</td>
-      <td>1.45%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>25.00%</td>
+      <td>28.57%</td>
     </tr>
   </tfoot>
 </table>

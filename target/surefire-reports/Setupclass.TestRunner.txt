@@ -1,22 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: Setupclass.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 78, Failures: 0, Errors: 2, Skipped: 7, Time elapsed: 416.772 s <<< FAILURE! - in Setupclass.TestRunner
-And user Enters the free username and passwordiiv(Scenario: Login with Google free account)  Time elapsed: 0.005 s  <<< ERROR!
+Tests run: 67, Failures: 0, Errors: 4, Skipped: 8, Time elapsed: 396.025 s <<< FAILURE! - in Setupclass.TestRunner
+And user Enters the free username and passwordiiv(Scenario: Login with Google free account)  Time elapsed: 0.004 s  <<< ERROR!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input (tried for 30 second(s) with 500 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDEQA2', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'SLIDEQA2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: unknown
 
-Scenario: Login with Google free account  Time elapsed: 0.005 s  <<< ERROR!
+Scenario: Login with Google free account  Time elapsed: 0.004 s  <<< ERROR!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input (tried for 30 second(s) with 500 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.cssSelector: #password > div.aCsJod.oJeWuf > div > div.Xb9hP > input
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'SLIDEQA2', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+System info: host: 'SLIDEQA2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
 Driver info: driver.version: unknown
+
+And user enters the username and password_viii(Scenario: SLI search Google login test)  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='identifierId'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SLIDEQA2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 170be4c2b0ce86ffb621817eda649eb6
+
+Scenario: SLI search Google login test  Time elapsed: 0.003 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='identifierId'] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'SLIDEQA2', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\SLIDEQ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 170be4c2b0ce86ffb621817eda649eb6
 

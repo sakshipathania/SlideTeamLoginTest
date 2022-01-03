@@ -69,67 +69,67 @@ formatter.match({
   "location": "Facebook_existing_paid_login.user_is_home_pagei()"
 });
 formatter.result({
-  "duration": 15007359500,
+  "duration": 14743360000,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_clicks_on_the_popular_pp_tsi()"
 });
 formatter.result({
-  "duration": 901452900,
+  "duration": 742693100,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_try_to_Download_the_ppti()"
 });
 formatter.result({
-  "duration": 9051218900,
+  "duration": 9728148100,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_is_on_login_pagei()"
 });
 formatter.result({
-  "duration": 165500,
+  "duration": 53200,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_Enters_the_username_and_passwordi()"
 });
 formatter.result({
-  "duration": 4314719000,
+  "duration": 4258636200,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_clicks_on_Login_buttoni()"
 });
 formatter.result({
-  "duration": 3086411300,
+  "duration": 3097482700,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_downloads_the_ppti()"
 });
 formatter.result({
-  "duration": 13400892000,
+  "duration": 12516399100,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.user_clicks_on_the_logout_pagei()"
 });
 formatter.result({
-  "duration": 4927402000,
+  "duration": 5102408800,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_paid_login.verify_the_Signout_Messagei()"
 });
 formatter.result({
-  "duration": 3065365900,
+  "duration": 3060789300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 129000,
+  "duration": 94100,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/Facebook_free_login.feature");
@@ -203,67 +203,67 @@ formatter.match({
   "location": "Facebook_free_login.user_is_home_page_ii()"
 });
 formatter.result({
-  "duration": 15601589300,
+  "duration": 16272591000,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_click_on_the_free_ppts_under_free_stuff_ii()"
 });
 formatter.result({
-  "duration": 983225400,
+  "duration": 945007600,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_try_to_download_the_free_ppts_ii()"
 });
 formatter.result({
-  "duration": 4723655300,
+  "duration": 6213857300,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_is_on_home_page_page_and_click_on_facebbook_button_ii()"
 });
 formatter.result({
-  "duration": 3601219900,
+  "duration": 3958566800,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_enters_the_free_username_and_password_ii()"
 });
 formatter.result({
-  "duration": 1275953400,
+  "duration": 1243100500,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_clicks_on_login_button_ii()"
 });
 formatter.result({
-  "duration": 98504300,
+  "duration": 91246800,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_downloads_the_free_ppt_ii()"
 });
 formatter.result({
-  "duration": 14131947800,
+  "duration": 10510393000,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.user_clicks_on_the_logout_page_ii()"
 });
 formatter.result({
-  "duration": 4107550000,
+  "duration": 5650212400,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_free_login.verify_The_Message_ii()"
 });
 formatter.result({
-  "duration": 2065027200,
+  "duration": 3065572100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55500,
+  "duration": 35900,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/Facebook_paid_Login.feature");
@@ -379,60 +379,60 @@ formatter.match({
   "location": "Google_existing_paid_login.user_is_home_pageiii()"
 });
 formatter.result({
-  "duration": 16710844500,
+  "duration": 17343515600,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_click_on_the_popular_PPsiii()"
 });
 formatter.result({
-  "duration": 883333500,
+  "duration": 675954700,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_try_to_download_the_pptiii()"
 });
 formatter.result({
-  "duration": 3925171200,
+  "duration": 5740439300,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_is_on_login_page_and_click_on_sigin_with_google_buttoniii()"
 });
 formatter.result({
-  "duration": 3220583000,
+  "duration": 3334000800,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_enters_the_username_and_passwordiii()"
 });
 formatter.result({
-  "duration": 11895437400,
+  "duration": 11930092300,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_downloads_the_pptiii()"
 });
 formatter.result({
-  "duration": 5978812200,
+  "duration": 3844299900,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.user_clicks_on_the_logout_pageiii()"
 });
 formatter.result({
-  "duration": 4954190300,
+  "duration": 4620614900,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_paid_login.verify_the_messageiii()"
 });
 formatter.result({
-  "duration": 63283100,
+  "duration": 3063887500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33900,
+  "duration": 28000,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/Google_free_login.feature");
@@ -501,36 +501,36 @@ formatter.match({
   "location": "Google_free_login.user_is_home_pageiiv()"
 });
 formatter.result({
-  "duration": 33299149000,
+  "duration": 30975442400,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_free_login.user_click_on_the_free_p_pts_under_free_stuffiiv()"
 });
 formatter.result({
-  "duration": 981570100,
+  "duration": 945461900,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_free_login.user_try_to_download_the_free_pptsiiv()"
 });
 formatter.result({
-  "duration": 8713176400,
+  "duration": 8968905200,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_free_login.user_is_on_home_page_page_and_click_on_google_buttoniiv()"
 });
 formatter.result({
-  "duration": 4155527500,
+  "duration": 3948688600,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_free_login.user_Enters_the_free_username_and_passwordiiv()"
 });
 formatter.result({
-  "duration": 34434456700,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password \u003e div.aCsJod.oJeWuf \u003e div \u003e div.Xb9hP \u003e input (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat StepDefination.Google_free_login.user_Enters_the_free_username_and_passwordiiv(Google_free_login.java:97)\r\n\tat ✽.And user Enters the free username and passwordiiv(src/test/java/Features/Google_free_login.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #password \u003e div.aCsJod.oJeWuf \u003e div \u003e div.Xb9hP \u003e input\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)\r\n\tat java.util.Optional.orElseThrow(Optional.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat StepDefination.Google_free_login.user_Enters_the_free_username_and_passwordiiv(Google_free_login.java:97)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+  "duration": 34327436800,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #password \u003e div.aCsJod.oJeWuf \u003e div \u003e div.Xb9hP \u003e input (tried for 30 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat StepDefination.Google_free_login.user_Enters_the_free_username_and_passwordiiv(Google_free_login.java:97)\r\n\tat ✽.And user Enters the free username and passwordiiv(src/test/java/Features/Google_free_login.feature:9)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: #password \u003e div.aCsJod.oJeWuf \u003e div \u003e div.Xb9hP \u003e input\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)\r\n\tat java.util.Optional.orElseThrow(Optional.java:290)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\r\n\tat StepDefination.Google_free_login.user_Enters_the_free_username_and_passwordiiv(Google_free_login.java:97)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
   "status": "failed"
 });
 formatter.match({
@@ -553,7 +553,7 @@ formatter.result({
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 120556600,
+  "duration": 122938000,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/Google_paid_Login.feature");
@@ -679,196 +679,67 @@ formatter.match({
   "location": "Normal_paid_login.user_is_home_page_vi()"
 });
 formatter.result({
-  "duration": 9403864900,
+  "duration": 9392104500,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_click_on_the_popular_PPts_vi()"
 });
 formatter.result({
-  "duration": 738216600,
+  "duration": 659680500,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_try_to_download_the_ppt_vi()"
 });
 formatter.result({
-  "duration": 4800086100,
+  "duration": 4701678300,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_is_on_login_page_vi()"
 });
 formatter.result({
-  "duration": 55800,
+  "duration": 53800,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_enters_the_username_and_password_vi()"
 });
 formatter.result({
-  "duration": 2236264800,
+  "duration": 2207423400,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_clicks_on_login_button_vi()"
 });
 formatter.result({
-  "duration": 7115291000,
+  "duration": 7239391100,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_downloads_the_ppt_vi()"
 });
 formatter.result({
-  "duration": 5165759600,
+  "duration": 5490114600,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.user_clicks_on_the_logout_page()"
 });
 formatter.result({
-  "duration": 7061179200,
+  "duration": 5930375800,
   "status": "passed"
 });
 formatter.match({
   "location": "Normal_paid_login.verify_the_message_vi()"
 });
 formatter.result({
-  "duration": 72726700,
+  "duration": 3070650700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 46700,
-  "status": "passed"
-});
-formatter.uri("src/test/java/Features/SLI_pop-up_Check_with_escape_key.feature");
-formatter.feature({
-  "line": 2,
-  "name": "SLI POP UP test",
-  "description": "",
-  "id": "sli-pop-up-test",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@Sli_test"
-    }
-  ]
-});
-formatter.scenario({
-  "line": 4,
-  "name": "SLI popup test with escape key",
-  "description": "",
-  "id": "sli-pop-up-test;sli-popup-test-with-escape-key",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "Now user is on Home Page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "Enter data in search field",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 7,
-  "name": "press escape key",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "verify the pop-up",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "Click on Sign in button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "Enter free valid username and password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "enter data in Search field",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": "Press Escape key",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 13,
-  "name": "verify the Pop-up",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.Now_user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 7214444700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.enter_data_in_search_field()"
-});
-formatter.result({
-  "duration": 3143551900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.press_escape_key()"
-});
-formatter.result({
-  "duration": 2052114000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.verify_the_pop_up()"
-});
-formatter.result({
-  "duration": 4111857500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.click_on_sign_in_button()"
-});
-formatter.result({
-  "duration": 4083774600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.enter_free_valid_username_and_password()"
-});
-formatter.result({
-  "duration": 3477500700,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.press_Escape_key()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "SLI_popup_check_with_escapeKey.verify_the_Pop_up()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 28000,
+  "duration": 44100,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/SLI_search_facebook_paid_login.feature");
@@ -937,60 +808,60 @@ formatter.match({
   "location": "SLI_search_facebook_paid_login.user_is_home_page_vii()"
 });
 formatter.result({
-  "duration": 21718935300,
+  "duration": 18338863100,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.user_will_clicks_on_the_sign_in_with_facebook_button_vii()"
 });
 formatter.result({
-  "duration": 6400306700,
+  "duration": 6157036000,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.user_enters_the_username_and_password_vii()"
 });
 formatter.result({
-  "duration": 233431500,
+  "duration": 222303600,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.user_verify_the_page_after_login_vii()"
 });
 formatter.result({
-  "duration": 8361888500,
+  "duration": 8121753400,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.enter_keyword_in_search_field_vii()"
 });
 formatter.result({
-  "duration": 3114839100,
+  "duration": 3110303700,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.user_selects_and_download_the_ppt()"
 });
 formatter.result({
-  "duration": 6091781700,
+  "duration": 6744639200,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.user_clicks_on_the_logout_page_vii()"
 });
 formatter.result({
-  "duration": 4817138300,
+  "duration": 3627471100,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_facebook_paid_login.verify_the_message_vii()"
 });
 formatter.result({
-  "duration": 70228500,
+  "duration": 3070523700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39200,
+  "duration": 25200,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/SLI_search_google_paid_login.feature");
@@ -1064,67 +935,64 @@ formatter.match({
   "location": "SLI_search_google_paid_login.user_is_home_page_viii()"
 });
 formatter.result({
-  "duration": 15846715900,
+  "duration": 15780934600,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.enter_keyword_in_search_field_viii()"
 });
 formatter.result({
-  "duration": 7206945200,
+  "duration": 7215247100,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.user_will_clicks_on_the_sign_in_with_google_button_viii()"
 });
 formatter.result({
-  "duration": 3266618000,
+  "duration": 1695358800,
   "status": "passed"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.user_enters_the_username_and_password_viii()"
 });
 formatter.result({
-  "duration": 8398716600,
-  "status": "passed"
+  "duration": 33623052000,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id\u003d\u0027identifierId\u0027] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027SLIDEQA2\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\SLIDEQ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 170be4c2b0ce86ffb621817eda649eb6\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\r\n\tat StepDefination.SLI_search_google_paid_login.user_enters_the_username_and_password_viii(SLI_search_google_paid_login.java:76)\r\n\tat ✽.And user enters the username and password_viii(src/test/java/Features/SLI_search_google_paid_login.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.user_verify_the_page_viii()"
 });
 formatter.result({
-  "duration": 2677588100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.enter_Keyword_in_search_field_viii()"
 });
 formatter.result({
-  "duration": 7125698900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.user_selects_and_download_the_ppt_viii()"
 });
 formatter.result({
-  "duration": 2633543800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.user_clicks_on_the_logout_page_viii()"
 });
 formatter.result({
-  "duration": 6968063800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SLI_search_google_paid_login.verify_the_message_viii()"
 });
 formatter.result({
-  "duration": 3080601000,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 110100,
+  "duration": 164092100,
   "status": "passed"
 });
 });

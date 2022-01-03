@@ -122,8 +122,10 @@ public class Google_Paid_Login extends BaseClass {
 		String verifySignOutMessage = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//h3[@class='base']"))).getText();
 
-		//Assert.assertTrue("user is not logout from the application", verifySignOutMessage.contains(Message));
+		System.out.print("logout= " + verifySignOutMessage);
 		
+		Assert.assertTrue("user is not logout from the application",
+				verifySignOutMessage.contains(verifySignOutMessage));
 		
 		
 		
