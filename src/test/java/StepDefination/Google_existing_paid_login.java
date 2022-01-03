@@ -78,9 +78,7 @@ public class Google_existing_paid_login extends BaseClass {
 			WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > div > button > span"));
 
 			next_1.click();
-                         Thread.sleep(9000);
-			Thread.sleep(9000);
-			Thread.sleep(9000);
+			
 			WebElement gmail_pass = wait.until(ExpectedConditions
 					.elementToBeClickable(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")));
 
@@ -91,7 +89,7 @@ public class Google_existing_paid_login extends BaseClass {
 			next_2.click();
 			  Thread.sleep(9000);
 			Thread.sleep(9000);
-			Thread.sleep(9000);
+			
 		} catch (NoSuchElementException e) {
 
 		}
@@ -99,7 +97,7 @@ public class Google_existing_paid_login extends BaseClass {
 
 	@Then("user downloads the PPTiii$")
 	public void user_downloads_the_pptiii() throws InterruptedException {
-		
+		Thread.sleep(9000);
 		driver.get("https://www.slideteam.net/business-process-evaluation-powerpoint-show.html");
 		WebElement download_Ppt = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='clicking']")));
