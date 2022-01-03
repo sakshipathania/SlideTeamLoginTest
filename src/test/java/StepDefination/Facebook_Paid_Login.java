@@ -27,8 +27,9 @@ public class Facebook_Paid_Login extends BaseClass {
 			driver.manage().timeouts().implicitlyWait(4000, TimeUnit.MILLISECONDS);
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			BaseClass.ClearBrowserCache();
-        	
+        	        Thread.sleep(2000);
 			WebElement Sign_in_with_facebook = BaseClass.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']"));
+			Thread.sleep(2000);
 			Sign_in_with_facebook.click();
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
