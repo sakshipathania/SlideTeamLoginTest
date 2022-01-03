@@ -113,7 +113,7 @@ public class Facebook_free_login extends BaseClass {
 	public void user_downloads_the_free_ppt_ii() throws InterruptedException {
 		try {
 			Thread.sleep(2000);
-			driver.get("https://www.slideteam.net/3d-man-education-and-technology-concept-ppt-graphics-icons.html");
+			//driver.get("https://www.slideteam.net/3d-man-education-and-technology-concept-ppt-graphics-icons.html");
 			WebElement download_ppt = BaseClass.elementToBeClickable(By.xpath("//button[@id='clicking']"));
 			js.executeScript("arguments[0].scrollIntoView();", download_ppt);
 			download_ppt.click();
