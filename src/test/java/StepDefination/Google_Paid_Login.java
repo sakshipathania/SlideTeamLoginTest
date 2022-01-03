@@ -15,8 +15,8 @@ import cucumber.api.java.en.Then;
 //import io.cucumber.java.en.Given;
 
 public class Google_Paid_Login extends BaseClass {
-	@Given("User is on Home Pagev$")
-	public void user_is_on_home_pagev() throws Throwable {
+	@Given("^User is on Home pagev$")
+	public void user_is_on_Home_pagev() throws Throwable {
 		BaseClass.ClearGoggleCache();
 		driver.get(AppURL);
 		try {
