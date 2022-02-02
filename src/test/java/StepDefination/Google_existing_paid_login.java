@@ -88,7 +88,7 @@ public class Google_existing_paid_login extends BaseClass {
 
 			next_2.click();
 			  Thread.sleep(9000);
-			Thread.sleep(9000);
+			//Thread.sleep(9000);
 			
 		} catch (NoSuchElementException e) {
 
