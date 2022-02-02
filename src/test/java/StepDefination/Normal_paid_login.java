@@ -81,7 +81,7 @@ public class Normal_paid_login extends BaseClass {
 			WebElement login_btn = BaseClass.elementToBeClickable(By.xpath("//span[normalize-space()='Login']"));
 			// js.executeScript("arguments[0].click();", login_btn );
 			login_btn.click();
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 		} catch (NoSuchElementException e) {
 
 		}
