@@ -32,6 +32,11 @@ public class Facebook_Paid_Login extends BaseClass {
 			Thread.sleep(2000);
 			Sign_in_with_facebook.click();
 			Thread.sleep(3000);
+			if (!driver.findElements(By.xpath("//div[@class='login-attempt-popup']")).isEmpty()) {
+				WebElement approve = wait
+						.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='confirm-approve']")));
+				approve.click();
+			}
 		} catch (InterruptedException e) {
 
 			e.printStackTrace();
