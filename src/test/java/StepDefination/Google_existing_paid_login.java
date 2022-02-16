@@ -87,6 +87,12 @@ public class Google_existing_paid_login extends BaseClass {
 			WebElement next_2 = driver.findElement(By.cssSelector("#passwordNext > div > button > span"));
 
 			next_2.click();
+			Thread.sleep(2000);
+			if (!driver.findElements(By.xpath("//div[@class='login-attempt-popup']")).isEmpty()) {
+				WebElement approve = wait
+						.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='confirm-approve']")));
+				approve.click();
+			}
 			  Thread.sleep(9000);
 			//Thread.sleep(9000);
 			
