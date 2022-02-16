@@ -65,8 +65,14 @@ public class SLI_search_facebook_paid_login extends BaseClass {
 			
 			
 			fb_login.click();
-			Thread.sleep(3000);
+			
 				}
+			Thread.sleep(2000);
+			if (!driver.findElements(By.xpath("//div[@class='login-attempt-popup']")).isEmpty()) {
+				WebElement approve = wait
+						.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='confirm-approve']")));
+				approve.click();
+			}
 		} catch (NoSuchElementException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
